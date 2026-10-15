@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Q2 Drill1</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, sans-serif; }
+    body { background: #f7f9fa; display: flex; justify-content: center; align-items: center; min-height: 100vh; padding: 20px; }
+
+    .banner {
+      width: 1100px; 
+      height: 480px; 
+      position: relative; 
+      background: #0162c8 url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4H0UqE__wE3Nw9xiWzVNgVBbHQZy_y5-fr-YjBrCKaw&s=10') center/cover no-repeat; 
+      border-radius: 4px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.25); 
+      display: flex; 
+      flex-direction: column; 
+      align-items: center;
+      justify-content: space-between; 
+      padding: 26px 40px 32px; 
+      overflow: hidden;
+    }
+
+
+    .title-pill {
+      background: #fff; width: 720px; max-width: 90%; height: 42px; border-radius: 25px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.25); display: flex; align-items: center; justify-content: center; gap: 10px;
+    }
+    .title-pill h1 { font-size: 19px; color: #111; }
+
+    .cards-row { display: flex; justify-content: center; align-items: stretch; gap: 18px; width: 100%; }
+
+    .info-card {
+      background: #fff; border-radius: 6px; width: 225px; 
+      box-shadow: 0 6px 14px rgba(0,0,0,0.25); padding: 10px 12px 14px; display: flex; flex-direction: column;
+    }
+    .card-header {
+      background: #eec239; border-radius: 4px; padding: 5px 8px; font-size: 11px;
+    }
+    .info-card ul { list-style-type: disc; padding-left: 18px; margin: 0; }
+    .info-card li { font-size: 10.5px; color: #333; line-height: 1.6; font-weight: 600; }
+  </style>
+</head>
+<body>
+
+  <div class="banner">
+    <div class="title-pill">
+      <span>🟡</span>
+      <h1>Beginner's Guide to Pickleball</h1>
+    </div>
+
+    <div class="cards-row">
+      <div class="info-card">
+        <div class="card-header"><span>📁</span> Basic Rules</div>
+        <ul>
+          <li>Serve diagonally</li>
+          <li>Double bounce rule</li>
+          <li>No volley zone</li>
+          <li>Scoring</li>
+        </ul>
+      </div>
+
+      <div class="info-card">
+        <div class="card-header"><span>📁</span> Pickleball Equipment</div>
+        <ul>
+          <li>Paddle</li>
+          <li>Plastic ball</li>
+          <li>Net</li>
+          <li>Court</li>
+        </ul>
+      </div>
+
+      <div class="info-card">
+        <div class="card-header"><span>🎯</span> Basic Techniques</div>
+        <ul>
+          <li>Forehand and backhand strokes</li>
+          <li>Serving techniques</li>
+          <li>Dinking</li>
+          <li>Positioning</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
